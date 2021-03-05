@@ -1,0 +1,5 @@
+n = int(input())
+score = map(int, input().split())
+score_list=list(set(score))
+score_list.sort()
+print(score_list[-2])
